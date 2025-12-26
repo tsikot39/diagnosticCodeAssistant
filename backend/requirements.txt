@@ -10,4 +10,4 @@ sentry-sdk==2.48.0
 slowapi==0.1.9
 httpx==0.25.2
 google-generativeai==0.3.2
-# Optional: redis==5.0.1 (for caching - not required)
+redis==5.0.1
