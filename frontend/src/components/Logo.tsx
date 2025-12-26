@@ -17,7 +17,7 @@ export function Logo({ className = '', size = 32 }: LogoProps) {
       <circle cx="32" cy="32" r="32" className="fill-primary" />
       
       {/* Stethoscope head */}
-      <circle cx="32" cy="20" r="6" className="fill-primary-foreground" strokeWidth="2" className="stroke-primary-foreground" />
+      <circle cx="32" cy="20" r="6" className="fill-primary-foreground stroke-primary-foreground" strokeWidth="2" />
       <circle cx="32" cy="20" r="4" className="fill-primary" />
       
       {/* Stethoscope tube */}
@@ -86,7 +86,7 @@ export function LogoIcon({ className = '', size = 24 }: LogoProps) {
       className={className}
     >
       {/* Stethoscope head */}
-      <circle cx="32" cy="20" r="6" className="fill-current" strokeWidth="2" className="stroke-current" />
+      <circle cx="32" cy="20" r="6" className="fill-current stroke-current" strokeWidth="2" />
       <circle cx="32" cy="20" r="4" className="fill-background" />
       
       {/* Stethoscope tube */}
