@@ -1,0 +1,13 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+sqlalchemy==2.0.25
+pydantic==2.5.3
+pydantic-settings==2.1.0
+psycopg[binary]==3.1.18
+python-dotenv==1.0.0
+alembic==1.13.1
+sentry-sdk==2.48.0
+slowapi==0.1.9
+httpx==0.25.2
+google-generativeai==0.3.2
+# Optional: redis==5.0.1 (for caching - not required)
